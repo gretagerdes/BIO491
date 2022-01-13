@@ -65,7 +65,7 @@ bwa sampe Ref (variant name)_sequence1.sai (variant name)_sequence2.sai (variant
 ```
 Convert the SAM file to BAM file using [SamTools]( http://www.htslib.org/doc/). 
 ```bash
-sudo apt-get install bwa
+sudo apt-get install samtools
 ```
 ```bash
 samtools view -b (variant name)_sequence12_pe.sam > (variant name).bam
